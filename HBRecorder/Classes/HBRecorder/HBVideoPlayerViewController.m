@@ -200,7 +200,7 @@
             [_parent.delegate recorder:_parent didFinishPickingMediaWithUrl:exportSession.outputUrl];
             
             
-            int viewsToPop = 2;
+            int viewsToPop = 1;
             self.navigationController.navigationBarHidden = NO;
 
             [self.navigationController popToViewController:self.navigationController.viewControllers[self.navigationController.viewControllers.count - viewsToPop - 1] animated:YES];
